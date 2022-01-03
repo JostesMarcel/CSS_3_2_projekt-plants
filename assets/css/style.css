@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: url(../img/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    padding: 5px 0 15px 40px;
+}
+
+section:nth-of-type(2) {
+
+    margin: 10em 15em;
+    color: white;
+}
+
+h2 {
+    width: 170px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+section:nth-of-type(2) p {
+    width: 170px;
+    margin: 0 auto;
+    font-size: 0.7em;
+    padding: 10px 0 20px 0;
+}
+
+section:nth-of-type(2) a {
+    border: 1px solid white;
+    font-size: small;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    text-align: right;
+    list-style: none;
+    margin-right: 10vh;
+    padding: 5px 0;
+    font-size: small;
+    color: white;
+}
+
+main {
+    margin: 0 auto;
+    padding: 10px 25vh;
+}
+
+h3 {
+    padding: 20px 0;
+}
+
+main section p {
+    font-size: small;
+    padding: 0 50px 20px 50px;
+}
+
+main article {
+    text-align: center;
+    border: 2px double black;
+    border-width: 2px;
+    margin: 0 27vh 10vh 27vh;
+    padding: 10px auto;
+    font-size: small;
+}
+
+main article a {
+    text-decoration: none;
+    color: black
+}
+
+footer {
+    background-color: darkslateblue;
+
+}
+
+footer p {
+    color: white;
+    font-size: 10px;
+    text-align: left;
+    font-size: 8px;
+    width: 345px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+footer article {
+    text-align: left;
+    font-size: 8px;
+    border: 1px solid white;
+    margin: 0vh 117vh 0 10px;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+footer article a {
+    color: white;
+    text-decoration: none;
+}
+
+footer article:nth-of-type(1):hover {
+    background: gray;
+}
+
+footer span {
+    margin-left: 110vh;
+    font-size: 0.4em;
+} 
+
+footer span a:nth-child(2) {
+    padding: 0 10px;
+}
+
+footer span a {
+    text-decoration: none;
+    color: white;
+}
